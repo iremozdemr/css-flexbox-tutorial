@@ -1,0 +1,58 @@
+.red1, .red2, .red3, .red4{
+    background-color: #eb4d4b;
+    width: 400px;
+    height: 400px;
+}
+
+.orange1, .orange2, .orange3, .orange4{
+    background-color: #f0932b;
+    width: 400px;
+    height: 400px;
+}
+
+.yellow1, .yellow2, .yellow3, .yellow4{
+    background-color: #f6e58d;
+    width: 400px;
+    height: 400px;
+}
+
+.green1, .green2, .green3, .green4{
+    background-color: #6ab04c;
+    width: 400px;
+    height: 400px;
+}
+
+.blue1, .blue2, .blue3, .blue4{
+    background-color: #4834d4;
+    width: 400px;
+    height: 400px;
+}
+
+.purple1, .purple2, .purple3, .purple4{
+    background-color: #be2edd;
+    width: 400px;
+    height: 400px;
+}
+
+.container1{
+    display: flex;
+    flex-direction: row;
+}
+
+.container2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.container3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.container4{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+}
