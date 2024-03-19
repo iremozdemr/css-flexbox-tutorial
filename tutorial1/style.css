@@ -1,0 +1,49 @@
+#pink1, #pink2, #pink3, #pink4, #pink5{
+    width: 100px;
+    height: 200px;
+    background-color: pink;
+}
+
+#red1, #red2, #red3, #red4, #red5{
+    width: 100px;
+    height: 200px;
+    background-color: red;
+}
+
+#blue1, #blue2, #blue3, #blue4, #blue5{
+    width: 100px;
+    height: 200px;
+    background-color: blue;
+}
+
+#green1, #green2, #green3, #green4, #green5{
+    width: 100px;
+    height: 200px;
+    background-color: green;
+}
+
+.container1{
+    display: flex;
+    gap: 10px;
+}
+
+.container2{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.container3{
+    display: flex;
+    flex-direction: column;
+}
+
+.container4{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.container5{
+    display: flex;
+    flex-direction: column-reverse;
+}
