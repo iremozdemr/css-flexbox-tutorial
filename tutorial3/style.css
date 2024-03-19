@@ -1,0 +1,39 @@
+.red1, .red2{
+    background-color: #eb4d4b;
+}
+
+.orange1, .orange2{
+    background-color: #f0932b;
+}
+
+.yellow1, .yellow2{
+    background-color: #f6e58d;
+}
+
+.green1, .green2{
+    background-color: #6ab04c;
+}
+
+.blue1, .blue2{
+    background-color: #4834d4;
+}
+
+.purple1, .purple2{
+    background-color: #be2edd;
+}
+
+.container1{
+    display: flex;
+    flex-direction: row;
+}
+
+.container2{
+    display: flex;
+    flex-direction: row;
+}
+
+.red2{
+    order: 1;
+}
+/*default olarak tüm elementlerin order değeri = 0*/
+/*order değerleri küçükten büyüğe doğru sıralanır*/
